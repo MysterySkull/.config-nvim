@@ -13,3 +13,8 @@ vim.keymap.set("n", "<C-j>", "<C-w>j")
 vim.keymap.set("n", "<leader>s", vim.cmd.split)
 vim.keymap.set("n", "<leader>vs", vim.cmd.vsplit)
 vim.keymap.set("n", "<leader>c", vim.cmd.close)
+
+-- Buffer navigation
+vim.keymap.set("n", "<leader>bn", vim.cmd.bnext)
+vim.keymap.set("n", "<leader>bp", vim.cmd.bprevious)
+vim.keymap.set("n", "<leader>bc", vim.cmd.bdelete)
